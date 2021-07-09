@@ -15,6 +15,6 @@ public class Hello {
 
     @GetMapping("/hello")
     public String sayHi(){
-        return "hello world - jenkins \n" + new Date();
+        return "hello world - jenkins \n";
     }
 }
